@@ -13,9 +13,6 @@ public:
 	customer(ProfileCustomer pro);
 	~customer();
 	///
-
-
-
 	ProfileCustomer get_profile();
 	///
     void get_profile(ProfileCustomer);
@@ -27,7 +24,4 @@ public:
 	void change_ProfileCustomer();  
 
 	Kharid kharid;
-
-
 };
-
