@@ -13,6 +13,7 @@ public:
 	Admin(Admin&&a);
 	~Admin();
 	///////////
+	////////////////////
 
 	void SignUpKon_customer(ProfileCustomer a);
 	void SignUpKon_seller(ProfileSeller a);///////////////////////////
