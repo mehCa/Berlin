@@ -1,16 +1,16 @@
 #pragma once
 #include "ProfileCustomer.h"
-#include "Profile.h"
 #include "ProfileSeller.h"
+
 class Admin
 {
-private :
+private:
 	Profile profile;
 public:
 
 	Admin(Profile pro);
 	Admin(const Admin& a);
-	Admin(Admin&&a);
+	Admin(Admin&& a);
 	~Admin();
 	///////////
 	////////////////////
