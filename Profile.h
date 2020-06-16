@@ -4,28 +4,20 @@ using namespace std;
 class Profile
 {
 private:
-	string name;  
-	string family_name;
-	string address_home;
-	string username;
-	string password;
-	long int Phone;
-	int ID;
-	int age;
+	string name;  string family_name;  string address_home;  string username;  string password; long int Phone;  int ID; int age;
 
 public:
+	Profile(string N = "", string F = "", string AH = "", string UN = "", string P = "", long int tel = 0, int id = 0, int sen = 0);
 	Profile(Profile&& c);
 	Profile(const Profile& c);
-	Profile(string N, string F, string AH, string UN, string P, int id, int sen);
-	virtual ~Profile();
+    ~Profile();
 	//////
-
-	void set_name(string); 
+	void set_name(string);
 	void set_family(string);
 	void set_address_H(string);
 	void set_username(string);
 	void set_password(string);
-	void set_Phone (long int);
+	void set_Phone(long int);
 	void set_ID(int);
 	void set_age(int);
 	////
@@ -38,7 +30,7 @@ public:
 	int get_ID();
 	int get_age();
 	///
-virtual	void change_profile();
+	void change_profile();
 
 };
 
